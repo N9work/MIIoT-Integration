@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-const db = require('./config/db');
+const db = require('./config/postgresdb');
 
 // เรียกใช้ Route
 const authRoutes = require('./routes/authRoutes'); 
